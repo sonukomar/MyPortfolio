@@ -1,0 +1,39 @@
+/*//////////////////////////////////////////////
+ Common Styling 
+//////////////////////////////////////////////*/
+
+body{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/*/////////////////////////////////
+ cover pic background style
+/////////////////////////////////*/
+
+.cover-pic {
+	background-image: url("../../images/bak.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 670px;
+}
+
+.cover-text{
+	position: absolute;
+	top: 87%;
+	left:20%;
+}
+
+.cover-text p{
+	color: #DA1212;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+.video video{
+	width: 59%;
+	height: 500px;
+}
