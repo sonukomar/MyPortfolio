@@ -1,4 +1,28 @@
 /*//////////////////////////////////////////////
+ Custom font installation
+//////////////////////////////////////////////*/
+
+@font-face {
+    font-family: MajestiBanner-Medium;
+    src: url(../../../fonts/MajestiBanner-Medium.otf);
+}
+
+@font-face {
+    font-family: AGaramondPro-Italic;
+    src: url(../../../fonts/AGaramondPro-Italic.otf);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+/*//////////////////////////////////////////////
  Common Styling 
 //////////////////////////////////////////////*/
 
@@ -7,24 +31,78 @@ body{
 	padding:0;
 }
 
+h1,h2,h3,h4{
+	font-family:MajestiBanner-Medium,serif;
+	letter-spacing:2px;
+	text-transform:none;
+	font-weight:400;
+	color:#CC1720;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #CC171D;
+}
+
+a.right{
+    cursor: url("../../images/next-cursor.png"),auto;
+}
+
+a.left{
+    cursor: url("../../images/prev-cursor.png"),auto;
+}
+
+.sonu{
+
+	height: 200px;
+    margin-top: -89px;
+    margin-left: 44%;
+    transform: rotateY(30deg);
+    transition-property: transform;
+    transition-duration: 2s;
+     transition-timing-function: ease-in-out;
+}
+
+.sonu:hover{
+	transform: rotateZ(50deg);
+
+	cursor: pointer;
+}
 
 
+.different{
+	font-family: AGaramondPro-Italic,serif;
+}
 
 /*/////////////////////////////////
  cover pic background style
 /////////////////////////////////*/
 
+.menu-bar{
+	position:fixed;
+	width:100%;
+	z-index:100;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li>a:hover {
+    color: #D21615  !important;
+    background-color: rgba(70, 57, 74, 0) !important;
+    border-bottom: 1px #989898 solid;
+}
+
 .cover-pic {
 	background-image: url("../../images/bak.jpg");
 	background-size: cover;
 	width: 100%;
-	height: 670px;
+	height: 741px;
 }
 
 .cover-text{
 	position: absolute;
-	top: 87%;
-	left:20%;
+	top: 79%;
+	left:1%;
 }
 
 .cover-text p{
@@ -33,7 +111,14 @@ body{
     font-size: xx-large;
 }
 
+
 .video video{
 	width: 59%;
 	height: 500px;
+}
+
+#profile{
+	    margin-top: -111px;
+    min-height: 500px;
+    padding: 0;
 }
