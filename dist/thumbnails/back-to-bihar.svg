@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#173437"/>
+      <stop offset="1" stop-color="#427263"/>
+    </linearGradient>
+    <linearGradient id="page" x2="0" y2="1">
+      <stop stop-color="#fff1c6"/>
+      <stop offset="1" stop-color="#e9be80"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#f7d9ad" opacity=".18"/>
+    </pattern>
+  </defs>
+  <path fill="url(#background)" d="M0 0h640v360H0z"/>
+  <path fill="url(#dots)" d="M0 0h640v360H0z"/>
+  <circle cx="320" cy="156" r="88" fill="#bd854d" opacity=".4"/>
+  <circle cx="320" cy="156" r="69" fill="#eab275"/>
+  <path d="M0 211c97-37 136-69 245-42s146 41 243 4 104-17 152-20v207H0z" fill="#376258"/>
+  <path d="M0 241c88-37 152-28 224-11s168 33 248 0 114-31 168-20v150H0z" fill="#284e4a"/>
+  <path d="M0 272c114-18 192-7 273 5s181 2 263-18 104-14 104-14v115H0z" fill="#1b3c40"/>
+  <path d="M112 285c84-8 150-4 210 9s133 8 208-12M67 314c106-7 183-4 261 9s141 9 239-12" fill="none" stroke="#83a48c" stroke-opacity=".42"/>
+  <path d="M320 187c-42-28-100-37-156-30l-24 119c69-9 127-1 180 25 53-26 111-34 180-25l-24-119c-56-7-114 2-156 30z" fill="#122e31" opacity=".55" transform="translate(0 9)"/>
+  <path d="M320 179c-40-23-92-33-148-25l-21 108c66-8 123 0 169 27 46-27 103-35 169-27l-21-108c-56-8-108 2-148 25z" fill="#a45d45" stroke="#edb784" stroke-width="2"/>
+  <path d="M320 176c-40-23-86-32-141-27l-19 103c62-6 112 1 160 29 48-28 98-35 160-29l-19-103c-55-5-101 4-141 27z" fill="url(#page)"/>
+  <path d="M320 176v105m-132-109c41-3 76 4 109 20m-113 1c42-3 78 4 113 20m-117 1c45-3 83 4 117 20m-121 1c47-3 85 4 121 20m155-83c-41-3-76 4-109 20m113 1c-42-3-78 4-113 20m117 1c-45-3-83 4-117 20m121 1c-47-3-85 4-121 20" fill="none" stroke="#a56a48" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M121 92c0 10 5 15 15 15-10 0-15 5-15 15 0-10-5-15-15-15 10 0 15-5 15-15zm391-19c0 10 5 15 15 15-10 0-15 5-15 15 0-10-5-15-15-15 10 0 15-5 15-15z" fill="#edcba2"/>
+</svg>

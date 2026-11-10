@@ -145,18 +145,10 @@ figcaption { display: flex; justify-content: space-between; gap: 8px; margin-top
 .section-head { margin-bottom: 28px; }
 h2 { font-size: clamp(44px, 5.1vw, 76px); letter-spacing: -.06em; margin-top: 10px; }
 h3 { font-size: clamp(27px, 2.8vw, 39px); letter-spacing: -.045em; }
-.work-empty {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  min-height: 86px;
-  border: 1px solid var(--rule);
-  padding: 18px 24px;
-  color: var(--muted);
-}
-.work-empty svg { width: 17px; height: 17px; color: var(--rust); }
-.work-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 16px; }
+.work-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr)); gap: 16px; }
 .work-item { display: grid; justify-items: start; align-content: start; gap: 12px; padding: 24px; border: 1px solid var(--rule); }
+.work-item > p:not(.eyebrow) { color: var(--muted); }
+.work-profile { margin-top: 16px; }
 
 .about-panel { background: #28201a; color: var(--paper); }
 .about-inner {
@@ -176,15 +168,21 @@ h3 { font-size: clamp(27px, 2.8vw, 39px); letter-spacing: -.045em; }
 .profile {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  background: var(--cream);
+  border: 1px solid var(--rule);
+}
+.profile-thumbnail { display: block; width: 100%; height: auto; background: var(--ink); }
+.profile-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   align-items: flex-start;
   padding: clamp(19px, 3vw, 31px);
-  background: var(--cream);
-  border-top: 2px solid var(--rust);
 }
-.profile-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; margin-bottom: 25px; }
-.profile-icon { display: grid; place-items: center; width: 43px; height: 43px; border: 1px solid #cab7a5; color: var(--rust); }
-.profile > p { color: var(--muted); margin-block: 10px 18px; }
-.profile > a { margin-block: auto 0; }
+.profile-body .eyebrow { margin-bottom: 10px; }
+.profile-body > p:not(.eyebrow) { color: var(--muted); margin-block: 10px 18px; }
+.profile-body > a { margin-top: auto; }
 .site-footer { border-top: 1px solid var(--rule); }
 .footer-inner { min-height: 88px; }
 

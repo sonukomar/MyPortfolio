@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#39263e"/>
+      <stop offset="1" stop-color="#864856"/>
+    </linearGradient>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#f0a886"/>
+      <stop offset="1" stop-color="#f4d2a7"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#f7d2b7" opacity=".24"/>
+    </pattern>
+  </defs>
+  <path fill="url(#background)" d="M0 0h640v360H0z"/>
+  <path fill="url(#dots)" d="M0 0h640v360H0z"/>
+  <circle cx="322" cy="178" r="123" fill="none" stroke="#eac0a4" stroke-opacity=".34"/>
+  <circle cx="322" cy="178" r="143" fill="none" stroke="#eac0a4" stroke-opacity=".24"/>
+  <g transform="rotate(-17 251 182)">
+    <rect x="157" y="75" width="188" height="220" rx="5" fill="#3f263e" opacity=".55" transform="translate(6 9)"/>
+    <rect x="157" y="75" width="188" height="220" rx="5" fill="#d8b7b9"/>
+    <rect x="171" y="89" width="160" height="161" fill="#b5728a"/>
+    <path d="M171 210l58-63 60 54 42-39v88H171z" fill="#73516f"/>
+    <path d="M171 228l55-24 51 21 54-23v48H171z" fill="#523953"/>
+  </g>
+  <g transform="rotate(12 377 181)">
+    <rect x="281" y="60" width="194" height="232" rx="5" fill="#3f263e" opacity=".53" transform="translate(7 10)"/>
+    <rect x="281" y="60" width="194" height="232" rx="5" fill="#f4ddc4"/>
+    <rect x="295" y="74" width="166" height="173" fill="url(#sky)"/>
+    <circle cx="407" cy="123" r="25" fill="#f9e3b8"/>
+    <path d="M295 182l49-49 48 47 30-24 39 35v56H295z" fill="#a55f71"/>
+    <path d="M295 211l46-28 42 23 35-15 43 9v47H295z" fill="#6c4560"/>
+    <path d="M295 234l52-14 51 11 63-18v34H295z" fill="#4b354d"/>
+    <path d="M296 269h53" stroke="#9f7d79" stroke-width="2"/>
+  </g>
+  <path d="M103 92c0 11 6 17 17 17-11 0-17 6-17 17 0-11-6-17-17-17 11 0 17-6 17-17zm436 142c0 11 6 17 17 17-11 0-17 6-17 17 0-11-6-17-17-17 11 0 17-6 17-17z" fill="#f4c6ad"/>
+</svg>
