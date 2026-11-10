@@ -162,14 +162,14 @@ h3 { font-size: clamp(27px, 2.8vw, 39px); letter-spacing: -.045em; }
 .about-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: start;
   gap: 24px;
   padding-block: clamp(48px, 7vw, 100px);
 }
 .about-inner .eyebrow { color: #f8a679; }
 .about-copy { max-width: 500px; color: #e7d9c9; }
-.about-lead { margin-bottom: 10px; color: var(--paper); font: 400 clamp(25px, 3vw, 40px)/1.2 var(--serif); letter-spacing: -.03em; }
-.about-copy p:last-child { white-space: pre-line; }
+.about-lead { color: var(--paper); font: 400 clamp(25px, 3vw, 36px)/1.2 var(--serif); letter-spacing: -.03em; }
+.about-copy p + p { margin-top: 16px; }
 
 .profiles { padding-block: 64px 80px; }
 .profile-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
